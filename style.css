@@ -21,7 +21,7 @@ body {
     align-items: center;
     background: linear-gradient(135deg, #86a4eb, lightblue, #ede88e,#e6eb59);
     display: wrap;
-    font-family: 'weatherApp', 'Dosis';
+    font-family: 'weatherApp', 'Times New Roman', Times, serif;
     font-display: swap;
     height: inherit;
     justify-content: center;

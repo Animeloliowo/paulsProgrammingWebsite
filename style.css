@@ -1,0 +1,105 @@
+@font-face {
+    src: url(fonts/MerriweatherSans-Light.ttf);
+    font-family: 'weatherApp';
+}
+
+html{
+    box-sizing:border-box;
+    height: 100%
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    align-items: center;
+    background: linear-gradient(135deg, #86a4eb, lightblue, #ede88e,#e6eb59);
+    display: wrap;
+    font-family: 'weatherApp', 'Dosis';
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+    text-align : center;
+    overflow: hidden;
+}
+#submit{
+    position: relative;
+    right: -135px;
+    top: -41px;
+    border: 0;
+    outline: 0;
+    background : rgba(255, 255, 255, 0.212);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+#submit img{
+    width:14px;
+    opacity: 0.4;
+}
+.searchBar{
+    margin:auto;
+    margin-top: 16%;
+    position:relative;
+    width: 215px;
+    height: 42px;
+    left: -20px;
+    padding: 0px 10px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.212);
+}
+.elementsContainer{
+    width:100%;
+    height: 50%;
+    vertical-align: middle;
+    border-radius: 50px;
+
+}
+#input_box{
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    background : rgba(255, 255, 255, 0);
+    outline: none;
+}
+
+#location{
+    top: 400px;
+    font-size: 40px;
+    cursor: default;
+}
+#temp{
+    font-size: 80px;
+    cursor: default;
+}
+#weather{
+    font-size: 30px;
+    cursor: default;
+}
+#highestTemp{
+    font-size: 25px;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: default;
+}
+#lowestTemp{
+    font-size: 25px;
+    display: inline-block;
+    cursor: default;
+}
+.error{
+    display: flex;
+    position: relative;
+    font-size: 10px;
+    left: -60px;
+    display: none;
+}
